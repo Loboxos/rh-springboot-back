@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("api")
-@CrossOrigin(value="http://localhost:5173")
+@CrossOrigin(value="http://localhost:3000")
 public class EmpleadoControlador {
     private static final Logger logger =
         LoggerFactory.getLogger(EmpleadoControlador.class);
